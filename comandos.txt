@@ -1,0 +1,8 @@
+libcamera-hello -t0
+libcamera-jpeg -o HQ_cctv.jpg
+libcamera-vid -t10000 -o video.h264
+libcamera-vid -t10000 --codec mjpeg -o video.mjpeg
+
+
+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
+git remote set-url origin https://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@github.com/juanc1289/SecurityDevices
