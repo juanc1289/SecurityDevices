@@ -8,4 +8,7 @@ vcgencmd measure_temp
 sudo shutdown now
 
 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
+
+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
+
 git remote set-url origin https://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@github.com/juanc1289/SecurityDevices
