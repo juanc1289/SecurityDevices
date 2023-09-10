@@ -6,27 +6,41 @@ from time import sleep
 start_time = time.time()
 
 cap = cv2.VideoCapture(0)
+time.sleep(15)
 
 ret, frame1 = cap.read()
+time.sleep(0.1)
+ret, frame2 = cap.read()
+time.sleep(0.1)
+ret, frame3 = cap.read()
+time.sleep(0.1)
+ret, frame4 = cap.read()
+time.sleep(0.1)
+ret, frame5 = cap.read()
+time.sleep(0.1)
+ret, frame6 = cap.read()
+time.sleep(0.1)
+
+
+
+
 
 print("--- %s seconds ---" % (time.time() - start_time))
-print ("shape",frame1.shape)
-print ("size",frame1.size)
-print ("dtype",frame1.dtype)
+#print ("shape",frame6.shape)
+#print ("size",frame6.size)
+#print ("dtype",frame6.dtype)
 
 
-while (cap.isOpened()):
+while (True):
 
     ret, img = cap.read()
     if ret == False:
+        print("ret falso")
         break
 
     cv2.imshow('Image',img)
 
-    cv2.imshow('Mask Red',mask_hsv_r)
-    cv2.imshow('Mask Green',mask_hsv_g)
-    
-    key = cv2.waitKey(1)
+    key = cv2.waitKey(0)
     if key==27:
         break
 
