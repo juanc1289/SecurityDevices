@@ -7,6 +7,12 @@ vcgencmd measure_temp
 
 sudo shutdown now
 
-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
+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
 
-git remote set-url origin https://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@github.com/juanc1289/SecurityDevices
+git config --global user.name "juanc1289"
+git config --global user.email "juan.cartagena94@gmail.com"
+
+git remote set-url origin https://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@github.com/juanc1289/SecurityDevices
+
+teamviewer
+Jsc940128.
