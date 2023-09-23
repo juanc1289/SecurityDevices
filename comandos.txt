@@ -13,6 +13,7 @@ git config --global user.name "juanc1289"
 git config --global user.email "juan.cartagena94@gmail.com"
 
 git remote set-url origin https://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@github.com/juanc1289/SecurityDevices
+git remote set-url origin https://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@github.com/juanc1289/WAV-13460
 
 teamviewer
 Jsc940128.
