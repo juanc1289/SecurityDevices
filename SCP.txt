@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=RKuUxtW2KEY&ab_channel=LearnPython
+
+"C:\Program Files\PuTTY\putty.exe" -load "rasp1" -l juanc -pw 940128
+
+"C:\Program Files\PuTTY\pscp.exe" -P 22 juanc@192.168.129.18:/home/juanc/Desktop/git.txt C:\Users\juanc\Desktop\ -l juanc -pw 940128
+
+"C:\Program Files\PuTTY\pscp.exe" -P 22 -pwfile C:\git\git.txt -sshrawlog C:\Users\juanc\Desktop\log.txt juanc@192.168.129.18:/home/juanc/Desktop/git.txt C:\Users\juanc\Desktop\ 
+
+"C:\Program Files\PuTTY\pscp.exe" -P 22 -pw 940128 -sshrawlog C:\Users\juanc\Desktop\log.txt juanc@192.168.129.18:/home/juanc/Desktop/git.txt C:\Users\juanc\Desktop\
+
+"C:\Program Files\PuTTY\pscp.exe" -P 22 -r -pw 940128 -sshrawlog C:\Users\juanc\Desktop\log.txt juanc@192.168.129.18:/home/juanc/Desktop/videos C:\Users\juanc\Desktop\
